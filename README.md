@@ -1,11 +1,14 @@
-# ⚠️ IMPORTANTE: PROJETO DESCONTINUADO ⚠️
+<div align="center">
+    <img src="./assets/images/banner.png" alt="Lite Bot" width="100%">
+</div>
 
-**Este bot foi descontinuado e não receberá mais atualizações.**
+<br />
 
-Para continuar usando um bot atualizado e com mais recursos, migre para o **Takeshi Bot**:
-👉 [https://github.com/guiireal/takeshi-bot](https://github.com/guiireal/takeshi-bot)
-
-O Takeshi Bot é a versão mais recente, com suporte ativo e novas funcionalidades.
+<div align="center">
+    <h1>🤖 Lite Bot</h1>
+    <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
+    <p>Desenvolvido por <strong>Dev Pedro ☕︎</strong></p>
+</div>
 
 ---
 
