@@ -5,7 +5,7 @@
 <br />
 
 <div align="center">
-    <h1>🤖 Lite Bot</h1>
+    <h1>Lite Bot ☕︎</h1>
     <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
     <p>Desenvolvido por <strong>Dev Pedro ☕︎</strong></p>
 </div>
