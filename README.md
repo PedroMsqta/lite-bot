@@ -20,10 +20,8 @@ Tecnologias envolvidas
 
 ⚠ Atenção
 
-Nós não prestamos suporte gratuito caso você tenha adquirido esta base com terceiros e tenha pago por isso.
-
+Nós não prestamos suporte gratuíto caso você tenha adquirido esta base com terceiros e tenha pago por isso.
 Solicite que a pessoa que te vendeu, forneça suporte.
-
 Nós não temos vínculo nenhum com terceiros e não nos responsabilizamos por isso, nem prestamos suporte nessas condições.
 
 Instalação no Termux <a id="termux-setup"></a>
@@ -46,7 +44,6 @@ pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts 
 cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-bot
 
 5 - Configure o arquivo "config.js". O bot fica dentro da pasta "/sdcard/lite-bot".
-
 Use o "MT Manager" (https://www.mediafire.com/file/y09xgucgygmt1ny/MT_Manager_2.16.7_Dev_Gui.apk/file) ou o "ZArchiver" (https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=pt_BR) para fazer isso (localizar a pasta).
 
 // Prefixo dos comandos
@@ -84,8 +81,7 @@ npm start
 
 Alguns comandos necessitam de API
 
-Edite a linha "34" do arquivo "config.js" e cole sua API key da POORPLIX API.
-
+Edite a linha "34" do arquivo "config.js" e cole sua chave da POORPLIX API.<br/>
 O site da POORPLIX API estará disponível em breve.
 
 exports.POORPLIX_API_TOKEN = "seu_token_aqui";
@@ -119,7 +115,7 @@ Causa: Permission denied (permissão negada) ao acessar "cd /sdcard"
 
 Inscreva-se no canal!
 
-<a href="https://www.youtube.com/@DevPedro_?sub_confirmation=1" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+<a href="https://www.youtube.com/@devgui_?sub_confirmation=1" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 
 Licença
 
@@ -142,4 +138,4 @@ Esta licença garante que todos tenham acesso ao código-fonte e podem colaborar
 
 ⚠ Disclaimer
 
-Neste projeto, precisei hospedar a "node_modules", para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o "npm install" ou "yarn" pelo Termux corretamente.
+Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o "npm install" ou "yarn" pelo termux corretamente.
