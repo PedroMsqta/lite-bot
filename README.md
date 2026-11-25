@@ -57,7 +57,7 @@ Não há vínculo com terceiros. Para suporte, utilize o canal oficial do projet
 Siga o guia abaixo na ordem correta. Clique nas setinhas (►) para expandir cada etapa e ver o que deve ser feito.
 
 <details>
-<summary><b>📱 Passo 1: Preparando o Termux e as Permissões</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 1: Preparando o Termux e as Permissões</b> <i>(clique para abrir)</i></summary>
 <br>
 
 1 - Abra o **Termux** no seu celular. 
@@ -74,7 +74,7 @@ termux-setup-storage
 </details>
 
 <details>
-<summary><b>⚙️ Passo 2: Instalando as Ferramentas Necessárias</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 2: Instalando as Ferramentas Necessárias</b> <i>(clique para abrir)</i></summary>
 <br>
 
 O bot precisa de algumas ferramentas para funcionar (como o Node.js e o FFMPEG). Para instalar tudo de uma vez, copie e cole o código abaixo no Termux e aperte Enter:
@@ -88,7 +88,7 @@ pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts 
 </details>
 
 <details>
-<summary><b>📥 Passo 3: Baixando o Bot</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 3: Baixando o Bot</b> <i>(clique para abrir)</i></summary>
 <br>
 
 Agora vamos baixar os arquivos do bot direto do GitHub para a memória do seu celular. Quando o passo anterior terminar, cole o código abaixo:
@@ -102,7 +102,7 @@ cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-
 </details>
 
 <details>
-<summary><b>✏️ Passo 4: Configurando o Bot</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 4: Configurando o Bot</b> <i>(clique para abrir)</i></summary>
 <br>
 
 1 - Use um gerenciador de arquivos no celular para encontrar a pasta /sdcard/lite-bot e abra o arquivo chamado config.js.
@@ -133,7 +133,7 @@ exports.OWNER_NUMBER = "5511999999999";
 </details>
 
 <details>
-<summary><b>🔗 Passo 5: Conectando ao WhatsApp (Pareamento)</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 5: Conectando ao WhatsApp (Pareamento)</b> <i>(clique para abrir)</i></summary>
 <br>
 
 1 - Volte para o Termux e digite o caminho da pasta do bot:
