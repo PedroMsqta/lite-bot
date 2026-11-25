@@ -1,4 +1,3 @@
-```
 <div align="center">
     <h1>Lite Bot ☕︎</h1>
     <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
@@ -256,5 +255,3 @@ O que você não pode fazer:
 ⚠ Disclaimer
 
 Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o npm install ou yarn pelo termux corretamente.
-
-```
