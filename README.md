@@ -198,26 +198,112 @@ Para obter seu token, acesse: [em breve] e crie sua conta gratuitamente!
 exports.POORPLIX_API_TOKEN = "seu_token_aqui";
 ```
 
-Funcionalidades
+## Funcionalidades
 
-Função Online? Contexto Requer a Poorplix API?
-Desligar o bot no grupo ✅ Dono ❌
-Ligar o bot no grupo ✅ Dono ❌
-Anti link ✅ Admin ❌
-Banir membros ✅ Admin ❌
-Ligar/desligar boas vindas ✅ Admin ❌
-Marcar todos ✅ Admin ❌
-Busca CEP ✅ Membro ❌
-Figurinha de texto animada ✅ Membro ✅
-Figurinha de texto ✅ Membro ✅
-Geração de imagens com IA ✅ Membro ❌
-GPT 4 ✅ Membro ✅
-Ping ✅ Membro ❌
-Play áudio ✅ Membro ✅
-Play vídeo ✅ Membro ✅
-Sticker ✅ Membro ❌
+<table>
+  <thead>
+    <tr style="background-color: #2d333b; color: white;">
+      <th align="left">Função</th>
+      <th align="center">Online?</th>
+      <th align="center">Contexto</th>
+      <th align="center">Requer API?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="left">Desligar o bot no grupo</td>
+      <td align="center">✅</td>
+      <td align="center">Dono</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Ligar o bot no grupo</td>
+      <td align="center">✅</td>
+      <td align="center">Dono</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Anti link</td>
+      <td align="center">✅</td>
+      <td align="center">Admin</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Banir membros</td>
+      <td align="center">✅</td>
+      <td align="center">Admin</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Ligar/desligar boas vindas</td>
+      <td align="center">✅</td>
+      <td align="center">Admin</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Marcar todos</td>
+      <td align="center">✅</td>
+      <td align="center">Admin</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Busca CEP</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Figurinha de texto animada</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="left">Figurinha de texto</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="left">Geração de imagens com IA</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">GPT 4</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="left">Ping</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">❌</td>
+    </tr>
+    <tr>
+      <td align="left">Play áudio</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="left">Play vídeo</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">✅</td>
+    </tr>
+    <tr>
+      <td align="left">Sticker</td>
+      <td align="center">✅</td>
+      <td align="center">Membro</td>
+      <td align="center">❌</td>
+    </tr>
+  </tbody>
+</table>
 
-Erros comuns
+## Erros comuns
 
 Causa: Permission denied - permissão negada ao acessar cd /sdcard
 
@@ -229,7 +315,7 @@ Causa: Permission denied - permissão negada ao acessar cd /sdcard
 
 Solução: abra o termux, digite termux-setup-storage e depois, aceite as permissões
 
-Inscreva-se no canal!
+## Inscreva-se no canal!
 
 https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 
@@ -239,7 +325,7 @@ GPL-3.0
 
 Este projeto está licenciado sob a Licença Pública Geral GNU (GPL-3.0).
 
-Isso significa que:
+## Isso significa que:
 
 · Você pode usar este código como quiser, seja para projetos pessoais ou comerciais.
 · Você pode modificar o código para adaptá-lo às suas necessidades.
@@ -247,20 +333,11 @@ Isso significa que:
 · Manter os créditos ao autor original: Pedro Lucas - Dev Pedro ☕︎.
 · Tornar o código modificado disponível sob a mesma licença GPL-3.0.
 
-O que você não pode fazer:
+## O que você não pode fazer:
 
 · Não pode transformar este código em algo proprietário ou fechado e impedir outras pessoas de acessá-lo ou usá-lo.
   Esta licença garante que todos tenham acesso ao código-fonte e podem colaborar livremente, promovendo o compartilhamento e o aprimoramento do projeto.
 
-⚠ Disclaimer
+## ⚠ Disclaimer
 
 Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o npm install ou yarn pelo termux corretamente.
-
-```
-
-### O que foi alterado nos textos:
-1. No início: `(como diretamente pelo celular via Termux)` virou **diretamente pelo celular via Termux** (em negrito).
-2. No Passo 5: `(Código de Pareamento)` virou **Código de Pareamento** (em negrito).
-3. Nos Erros Comuns: `(permissão negada)` virou `- permissão negada` (com um traço).
-4. Na Licença: `(Pedro Lucas - Dev Pedro ☕︎)` virou `: **Pedro Lucas - Dev Pedro ☕︎**` (com dois pontos e em negrito).
-5. Onde tinha `(fechado)`, tirei os parênteses e deixei apenas a palavra.
