@@ -1,3 +1,4 @@
+```
 <div align="center">
     <h1>Lite Bot ☕︎</h1>
     <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
@@ -57,7 +58,7 @@ Não há vínculo com terceiros. Para suporte, utilize o canal oficial do projet
 Organizamos a instalação em etapas simples para facilitar o seu aprendizado. Siga o Guia abaixo na ordem correta.
 
 <details>
-<summary><b>Passo 1: Preparando o Termux e as Permissões</b> <i></i></summary>
+<summary><b>Passo 1: Preparando o Termux e as Permissões</b></summary>
 <br>
 
 1 - Abra o **Termux** no seu celular. 
@@ -74,7 +75,7 @@ termux-setup-storage
 </details>
 
 <details>
-<summary><b>Passo 2: Instalando as Ferramentas Necessárias</b> <i></i></summary>
+<summary><b>Passo 2: Instalando as Ferramentas Necessárias</b></summary>
 <br>
 
 O bot precisa de algumas ferramentas para funcionar como o Node.js e o FFMPEG. Para instalar tudo de uma vez, copie e cole o código abaixo no Termux e aperte Enter:
@@ -88,7 +89,7 @@ pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts 
 </details>
 
 <details>
-<summary><b>Passo 3: Baixando o Bot</b> <i></i></summary>
+<summary><b>Passo 3: Baixando o Bot</b></summary>
 <br>
 
 Agora vamos baixar os arquivos do bot direto do GitHub para a memória do seu celular. Quando o passo anterior terminar, cole o código abaixo:
@@ -102,7 +103,7 @@ cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-
 </details>
 
 <details>
-<summary><b>Passo 4: Configurando o Bot</b> <i></i></summary>
+<summary><b>Passo 4: Configurando o Bot</b></summary>
 <br>
 
 1 - Use um gerenciador de arquivos no celular para encontrar a pasta /sdcard/lite-bot e abra o arquivo chamado config.js.
@@ -133,7 +134,7 @@ exports.OWNER_NUMBER = "5511999999999";
 </details>
 
 <details>
-<summary><b>Passo 5: Conectando ao WhatsApp Pareamento</b> <i></i></summary>
+<summary><b>Passo 5: Conectando ao WhatsApp (Pareamento)</b></summary>
 <br>
 
 1 - Volte para o Termux e digite o caminho da pasta do bot:
@@ -148,11 +149,15 @@ exports.OWNER_NUMBER = "5511999999999";
 yarn start
 ```
 
-ou npm start
+ou
+
+```sh
+npm start
+```
 
 3 - O Termux vai pedir o seu número de telefone. Digite o número com o DDD e aperte Enter.
 
-4 - Em seguida, ele vai gerar um código de 8 dígitos Código de Pareamento.
+4 - Em seguida, ele vai gerar um código de 8 dígitos (Código de Pareamento).
 
 5 - Abra o WhatsApp no seu celular, vá em Dispositivos Conectados > Conectar um Dispositivo > Conectar com número de telefone.
 
@@ -163,7 +168,7 @@ ou npm start
 </details>
 
 <details>
-<summary><b>✅ Passo 6: Iniciando o Bot para uso</b> <i></i></summary>
+<summary><b>Passo 6: Iniciando o Bot para uso</b></summary>
 <br>
 
 Agora que o WhatsApp já está conectado, o bot não vai mais pedir o número nem o código. Para ligar o bot no dia a dia, basta entrar na pasta e rodar:
@@ -181,39 +186,41 @@ npm start
 🎉 Pronto! Seu bot está online e funcionando no WhatsApp.
 
 </details>
-```
 
-## Alguns comandos necessitam de API
+<br>
 
-Edite a linha `34` do arquivo `config.js` e cole sua api key da plataforma Poorplix API.<br/>
+Alguns comandos necessitam de API
+
+Edite a linha 34 do arquivo config.js e cole sua api key da plataforma Poorplix API.
+
 Para obter seu token, acesse: [em breve] e crie sua conta gratuitamente!
 
 ```js
 exports.POORPLIX_API_TOKEN = "seu_token_aqui";
 ```
-## Funcionalidades
 
-| Função | Online? | Contexto | Requer a Poorplix API?
-| ------------ | --- | --- | ---
-| Desligar o bot no grupo | ✅ | Dono | ❌
-| Ligar o bot no grupo | ✅ | Dono | ❌
-| Anti link | ✅ | Admin | ❌
-| Banir membros | ✅ | Admin | ❌
-| Ligar/desligar boas vindas | ✅ | Admin | ❌
-| Marcar todos | ✅ | Admin | ❌
-| Busca CEP | ✅ | Membro | ❌
-| Figurinha de texto animada | ✅ | Membro | ✅
-| Figurinha de texto | ✅ | Membro | ✅
-| Geração de imagens com IA | ✅ | Membro | ❌
-| GPT 4 | ✅ | Membro | ✅
-| Ping | ✅ | Membro | ❌
-| Play áudio | ✅ | Membro | ✅
-| Play vídeo | ✅ | Membro | ✅
-| Sticker | ✅ | Membro | ❌
+Funcionalidades
 
-## Erros comuns
+Função Online? Contexto Requer a Poorplix API?
+Desligar o bot no grupo ✅ Dono ❌
+Ligar o bot no grupo ✅ Dono ❌
+Anti link ✅ Admin ❌
+Banir membros ✅ Admin ❌
+Ligar/desligar boas vindas ✅ Admin ❌
+Marcar todos ✅ Admin ❌
+Busca CEP ✅ Membro ❌
+Figurinha de texto animada ✅ Membro ✅
+Figurinha de texto ✅ Membro ✅
+Geração de imagens com IA ✅ Membro ❌
+GPT 4 ✅ Membro ✅
+Ping ✅ Membro ❌
+Play áudio ✅ Membro ✅
+Play vídeo ✅ Membro ✅
+Sticker ✅ Membro ❌
 
-### Causa: Permission denied [permissão negada] ao acessar `cd /sdcard`
+Erros comuns
+
+Causa: Permission denied (permissão negada) ao acessar cd /sdcard
 
 <br/>
 
@@ -221,31 +228,33 @@ exports.POORPLIX_API_TOKEN = "seu_token_aqui";
     <img src="./assets/images/erros-comuns-1.png" width="500">
 </div>
 
+Solução: abra o termux, digite termux-setup-storage e depois, aceite as permissões
 
-### Solução: abra o termux, digite `termux-setup-storage` e depois, aceite as permissões
+Inscreva-se no canal!
 
-## Inscreva-se no canal!
+https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DevPedro?sub_confirmation=1)
+Licença
 
-## Licença
+GPL-3.0
 
-[GPL-3.0](https://github.com/PedroMsqta/lite-bot/blob/main/LICENSE)
+Este projeto está licenciado sob a Licença Pública Geral GNU (GPL-3.0).
 
-Este projeto está licenciado sob a Licença Pública Geral GNU (GPL-3.0).<br/>
 Isso significa que:
 
-- Você pode usar este código como quiser, seja para projetos pessoais ou comerciais.
-- Você pode modificar o código para adaptá-lo às suas necessidades.
-- Você pode compartilhar ou vender o código, mesmo modificado, mas precisa:
-- Manter os créditos ao autor original (Pedro Lucas - Dev Pedro ☕︎).
-- Tornar o código modificado disponível sob a mesma licença GPL-3.0.
+· Você pode usar este código como quiser, seja para projetos pessoais ou comerciais.
+· Você pode modificar o código para adaptá-lo às suas necessidades.
+· Você pode compartilhar ou vender o código, mesmo modificado, mas precisa:
+· Manter os créditos ao autor original (Pedro Lucas - Dev Pedro ☕︎).
+· Tornar o código modificado disponível sob a mesma licença GPL-3.0.
 
 O que você não pode fazer:
 
-- Não pode transformar este código em algo proprietário (fechado) e impedir outras pessoas de acessá-lo ou usá-lo.
-Esta licença garante que todos tenham acesso ao código-fonte e podem colaborar livremente, promovendo o compartilhamento e o aprimoramento do projeto.
+· Não pode transformar este código em algo proprietário (fechado) e impedir outras pessoas de acessá-lo ou usá-lo.
+  Esta licença garante que todos tenham acesso ao código-fonte e podem colaborar livremente, promovendo o compartilhamento e o aprimoramento do projeto.
 
-## ⚠ Disclaimer
+⚠ Disclaimer
 
-Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o `npm install` ou `yarn` pelo termux corretamente.
+Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o npm install ou yarn pelo termux corretamente.
+
+```
