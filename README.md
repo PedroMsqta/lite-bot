@@ -1,4 +1,3 @@
-```md
 <div align="center">
     <img src="./assets/images/menu.png" width="100%" alt="Lite Bot Banner">
 </div>
@@ -13,40 +12,45 @@
 
 <div align="center">
     <a href="https://github.com/PedroMsqta/lite-bot">
-        <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.2.1-blue?style=for-the-badge">
+        <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.2.1-blue?style=flat-square">
     </a>
     <a href="https://github.com/PedroMsqta/lite-bot/blob/main/LICENSE">
-        <img alt="License" src="https://img.shields.io/badge/Licen%C3%A7a-GPL--3.0-green?style=for-the-badge">
+        <img alt="License" src="https://img.shields.io/badge/Licen%C3%A7a-GPL--3.0-green?style=flat-square">
     </a>
-    <img alt="Status" src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=for-the-badge">
+    <img alt="Status" src="https://img.shields.io/badge/Status-Ativo-brightgreen?style=flat-square">
 </div>
 
 <br />
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
-O **Lite Bot** é um projeto **100% Open Source** construído com o objetivo de ser uma base leve, rápida e altamente multifunções para WhatsApp. O foco principal é entregar **simplicidade, automações práticas e código limpo**, sendo ideal para rodar de forma acessível (diretamente pelo celular via Termux) sem perder a performance.
+O **Lite Bot** é um projeto Open Source construído com o objetivo de ser uma base leve, rápida e altamente multifunções para WhatsApp. O foco principal é entregar simplicidade, automações práticas e código limpo, sendo ideal para rodar de forma acessível (diretamente pelo celular via Termux) sem perder a performance.
 
 <br />
 
-## 🛠️ Linguagens e Tecnologias
+## Linguagens e Tecnologias
 
 <div align="center">
-    <p>As principais linguagens e ferramentas que movem o bot:</p>
-    <img src="https://skillicons.dev/icons?i=js,nodejs,git,bash,linux&theme=dark" alt="Minhas Habilidades" />
+    <img src="https://skillicons.dev/icons?i=js,nodejs,git,bash,linux&theme=dark" alt="Linguagens e Ferramentas" />
     <br><br>
-    <p><i>Bibliotecas e APIs específicas do projeto:</i></p>
-    <img src="https://img.shields.io/badge/Baileys-Latest-8e44ad?style=for-the-badge" alt="Baileys">
-    <img src="https://img.shields.io/badge/FFMPEG-Latest-E67E22?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFMPEG">
-    <img src="https://img.shields.io/badge/Yarn-1.22.22-2188B6?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn">
-    <img src="https://img.shields.io/badge/Axios-Latest-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios">
-    <img src="https://img.shields.io/badge/Herc.ai-API-blueviolet?style=for-the-badge" alt="Herc.ai">
-    <img src="https://img.shields.io/badge/Poorplix_API-Em_breve-lightgrey?style=for-the-badge" alt="Poorplix API">
+    <a href="#" title="Baileys"><img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="Baileys" width="45" height="45" /></a>
+    &nbsp;&nbsp;
+    <a href="#" title="FFMPEG"><img src="https://cdn.simpleicons.org/ffmpeg/007808" alt="FFMPEG" width="45" height="45" /></a>
+    &nbsp;&nbsp;
+    <a href="#" title="Yarn"><img src="https://cdn.simpleicons.org/yarn/2188B6" alt="Yarn" width="45" height="45" /></a>
+    &nbsp;&nbsp;
+    <a href="#" title="Axios"><img src="https://cdn.simpleicons.org/axios/5A29E4" alt="Axios" width="45" height="45" /></a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Bes-js/herc.ai" title="Herc.ai">
+  <img src="https://api.iconify.design/mdi/brain.svg?color=%23A78BFA" alt="Herc.ai" width="45" height="45" />
+</a>
+    &nbsp;&nbsp;
+    <a href="#" title="Poorplix API"><img src="https://cdn.simpleicons.org/rocket/FF6600" alt="Poorplix API" width="45" height="45" /></a>
 </div>
 
 <br />
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 <table align="center">
   <thead>
@@ -80,21 +84,38 @@ O **Lite Bot** é um projeto **100% Open Source** construído com o objetivo de 
 
 ## Guia de Instalação [Termux]
 
-Clique nas setinhas abaixo para expandir e ver o passo a passo de cada etapa.
+### Aplicativos Necessários
+
+Instale as ferramentas que você vai usar para editar os arquivos e rodar o bot:
+
+<details>
+  <summary>Aplicativos recomendados</summary>
+
+  <p>Utilize um dos aplicativos abaixo para editar arquivos e executar o Lite Bot:</p>
+
+  - **MT Manager:** <a href="https://mt2.cn/" target="_blank">Acessar site</a> — editor e gerenciador de arquivos.
+  - **Acode:** <a href="https://acode.app/" target="_blank">Acessar site</a> — editor de código.
+  - **Termux:** <a href="https://f-droid.org/packages/com.termux/" target="_blank">Acessar download</a> — terminal para executar o bot.
+
+</details>
+
+> **Atenção:** Evite instalar o Termux pela Google Play Store. A versão da loja está desatualizada e não recebe mais manutenção. Use os ícones do **F-Droid** ou do **GitHub** acima.
+
+---
+
+Abaixo está o Guia para instalação. Clique nas setinhas para expandir.
 
 <details>
 <summary><b>Passo 1: Preparando o Termux e Permissões</b></summary>
 <br>
 
-1. Abra o **Termux** no seu celular. 
-   *(Não tem o Termux? [Clique aqui e baixe a última versão](https://www.mediafire.com/file/082otphidepx7aq/Termux_0.119.1_aldebaran_dev.apk).)*
-
+1. Abra o **Termux** no seu celular.
 2. Para dar permissão de acesso aos arquivos, digite o comando abaixo e aperte Enter:
 ```sh
 termux-setup-storage
 ```
 
-⚠️ Atenção: Aceite a permissão que aparecerá na tela do celular.
+Atenção: Aceite a permissão que aparecerá na tela do celular.
 
 </details>
 
@@ -108,7 +129,7 @@ Copie e cole o código abaixo no Termux para instalar o Node.js, Git, FFMPEG e o
 pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && npm install -g yarn
 ```
 
-💡 Dica: Se o Termux fizer alguma pergunta no meio do processo (como [Y/n]), digite y e aperte Enter.
+Dica: Se o Termux fizer alguma pergunta no meio do processo (como [Y/n]), digite y e aperte Enter.
 
 </details>
 
@@ -122,7 +143,7 @@ Agora baixe os arquivos do projeto. Cole o comando:
 cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-bot
 ```
 
-💡 O que faz? Ele entra na memória do celular, baixa o projeto e entra na pasta lite-bot.
+O que faz? Ele entra na memória do celular, baixa o projeto e entra na pasta lite-bot.
 
 </details>
 
@@ -130,7 +151,7 @@ cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-
 <summary><b>Passo 4: Configurando o Bot</b></summary>
 <br>
 
-1. Use um gerenciador de arquivos (recomendamos o MT Manager) e abra a pasta /sdcard/lite-bot.
+1. Use o MT Manager ou o Acode para abrir a pasta /sdcard/lite-bot.
 2. Abra o arquivo config.js e edite as informações com os seus dados:
 
 ```js
@@ -179,7 +200,7 @@ yarn start
 </details>
 
 <details>
-<summary><b>✅ Passo 6: Iniciando o Bot</b></summary>
+<summary><b>Passo 6: Iniciando o Bot</b></summary>
 <br>
 
 Agora que o WhatsApp já está conectado, você não precisa mais do código de pareamento. Para ligar o bot no dia a dia, basta entrar na pasta e rodar:
@@ -194,13 +215,13 @@ ou
 npm start
 ```
 
-🎉 Pronto! O Lite Bot está online.
+Pronto! O Lite Bot está online.
 
 </details>
 
 <br />
 
-⚙️ Comandos que necessitam de API
+Comandos que necessitam de API
 
 Alguns comandos precisam de uma chave de API para funcionar. Edite a linha 34 do arquivo config.js e cole seu token:
 
@@ -208,19 +229,17 @@ Alguns comandos precisam de uma chave de API para funcionar. Edite a linha 34 do
 exports.POORPLIX_API_TOKEN = "seu_token_aqui";
 ```
 
-(Para obter seu token, acesse a plataforma Poorplix API e crie sua conta gratuitamente em breve).
+Para obter seu token, acesse a plataforma Poorplix API e crie sua conta gratuitamente em breve.
 
 <br />
 
-🐛 Erros comuns
+Erros comuns
 
 <details>
 <summary><b>Erro: "Permission denied" ao acessar /sdcard</b></summary>
 <br>
 
 Causa: Falta de permissão do Termux para acessar os arquivos do celular.
-
-
 
 <div align="center">
     <img src="./assets/images/erros-comuns-1.png" width="500">
@@ -232,20 +251,21 @@ Solução: Abra o Termux, digite termux-setup-storage e aceite as permissões na
 
 <br />
 
-🌐 Conecte-se com o Dev
+Conecte-se com o Dev
 
 <div align="center">
   <a href="https://www.youtube.com/@DevPedro?sub_confirmation=1" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-Se_Inscreva-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" height="40" />
   </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/PedroMsqta" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Siga_o_Dev-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="40" />
   </a>
 </div>
 
 <br />
 
-🤝 Como contribuir
+Como contribuir
 
 Este é um projeto Open Source e sua contribuição é muito bem-vinda!
 
@@ -257,7 +277,7 @@ Este é um projeto Open Source e sua contribuição é muito bem-vinda!
 
 <br />
 
-📄 Licença
+Licença
 
 GPL-3.0
 
@@ -270,8 +290,6 @@ Isso significa que você pode usar, modificar e compartilhar o código, desde qu
 
 <br />
 
-⚠ Disclaimer
+Disclaimer
 
 Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o npm install ou yarn pelo Termux corretamente.
-
-```
