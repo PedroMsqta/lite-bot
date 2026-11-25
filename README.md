@@ -42,67 +42,17 @@ Desenvolvido por **Dev Pedro ☕︎**, o Lite Bot foi pensado para funcionar em 
 ## Estrutura do Projeto
 
 <div align="center">
-  <img src="https://img.shields.io/badge/LITE%20BOT- PROJECT-A78BFA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PROJECT%20STRUCTURE-OVERVIEW-F9A8D4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LITE%20BOT-PROJECT-A78BFA?style=for-the-badge" alt="Lite Bot Project" />
+  <img src="https://img.shields.io/badge/PROJECT%20STRUCTURE-OVERVIEW-F9A8D4?style=for-the-badge" alt="Project Structure Overview" />
 </div>
 
 <br />
 
 <div align="center">
-  <svg width="100%" viewBox="0 0 720 760" xmlns="http://www.w3.org/2000/svg">
-    <rect width="720" height="760" rx="12" fill="#242424"/>
-    <text x="30" y="48" fill="#A78BFA" font-size="22" font-weight="bold" font-family="monospace">lite-bot/</text>
-    <g font-family="monospace" font-size="15">
-      <g fill="#F9A8D4">
-        <text x="30" y="85">├── assets/</text>
-        <text x="65" y="110">└── images/</text>
-      </g>
-      <g fill="#BAE6FD">
-        <text x="100" y="135">├── default-user.png</text>
-        <text x="100" y="160">├── erros-comuns-1.png</text>
-        <text x="100" y="185">└── menu.png</text>
-      </g>
-      <text x="30" y="225" fill="#F9A8D4">├── baileys/</text>
-      <text x="30" y="260" fill="#F9A8D4">├── database/</text>
-      <g fill="#FEF08A">
-        <text x="65" y="285">├── .gitignore</text>
-        <text x="65" y="310">└── db.js</text>
-      </g>
-      <text x="30" y="350" fill="#F9A8D4">├── errors/</text>
-      <g fill="#FEF08A">
-        <text x="65" y="375">├── DangerError.js</text>
-        <text x="65" y="400">├── InvalidParameterError.js</text>
-        <text x="65" y="425">├── WarningError.js</text>
-        <text x="65" y="450">└── index.js</text>
-      </g>
-      <text x="30" y="490" fill="#F9A8D4">├── services/</text>
-      <g fill="#C4B5FD">
-        <text x="65" y="515">├── hercai.js</text>
-        <text x="65" y="540">└── poorplix-api.js</text>
-      </g>
-      <text x="30" y="580" fill="#F9A8D4">├── temp/</text>
-      <text x="30" y="615" fill="#F9A8D4">├── utils/</text>
-      <g fill="#FEF08A">
-        <text x="65" y="640">├── functions.js</text>
-        <text x="65" y="665">├── menu.js</text>
-        <text x="65" y="690">└── terminal.js</text>
-      </g>
-    </g>
-  </svg>
+  <img src="./assets/images/project-structure.svg" width="100%" alt="Árvore colorida da estrutura do projeto Lite Bot" />
 </div>
 
-```text
-lite-bot/
-├── config.js
-├── connection.js
-├── index.js
-├── welcome.js
-├── test.js
-├── package.json
-├── README.md
-├── LICENSE
-└── .gitignore
-```
+> A pasta `node_modules/` não aparece no diagrama porque é gerada pelo gerenciador de pacotes e não deve ser versionada no Git.
 
 ## Linguagens e Tecnologias
 
