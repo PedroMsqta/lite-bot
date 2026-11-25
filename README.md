@@ -24,9 +24,85 @@
 
 ## Sobre o Projeto
 
-O **Lite Bot** é um projeto Open Source construído com o objetivo de ser uma base leve, rápida e altamente multifunções para WhatsApp. O foco principal é entregar simplicidade, automações práticas e código limpo, sendo ideal para rodar de forma acessível (diretamente pelo celular via Termux) sem perder a performance.
+O **Lite Bot ☕︎** é um bot de WhatsApp Open Source, desenvolvido em JavaScript com foco em simplicidade, praticidade e múltiplas funcionalidades.
+
+Criado para oferecer recursos de automação, gerenciamento de grupos, ferramentas de produtividade e integração com inteligência artificial, o projeto possui uma estrutura organizada e permite personalizações diretamente em seus arquivos de configuração.
+
+Desenvolvido por **Dev Pedro ☕︎**, o Lite Bot foi pensado para funcionar em ambientes como Termux e Linux, mantendo uma experiência simples de instalação e utilização.
+
+### Características
+
+- **Multifunções:** ferramentas para administração de grupos e utilização individual.
+- **Inteligência artificial:** integração com Herc.ai para geração de imagens.
+- **Automação:** respostas automáticas e gerenciamento de recursos.
+- **Personalização:** prefixo, nome, emoji e números configuráveis.
+- **Código aberto:** estrutura disponível para estudo, utilização e contribuição.
+- **Integrações:** conexão com WhatsApp por meio da Baileys e serviços externos.
+
+## Estrutura do Projeto
+
+<div align="center">
+  <img src="https://img.shields.io/badge/LITE%20BOT- PROJECT-A78BFA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PROJECT%20STRUCTURE-OVERVIEW-F9A8D4?style=for-the-badge" />
+</div>
 
 <br />
+
+<div align="center">
+  <svg width="100%" viewBox="0 0 720 760" xmlns="http://www.w3.org/2000/svg">
+    <rect width="720" height="760" rx="12" fill="#242424"/>
+    <text x="30" y="48" fill="#A78BFA" font-size="22" font-weight="bold" font-family="monospace">lite-bot/</text>
+    <g font-family="monospace" font-size="15">
+      <g fill="#F9A8D4">
+        <text x="30" y="85">├── assets/</text>
+        <text x="65" y="110">└── images/</text>
+      </g>
+      <g fill="#BAE6FD">
+        <text x="100" y="135">├── default-user.png</text>
+        <text x="100" y="160">├── erros-comuns-1.png</text>
+        <text x="100" y="185">└── menu.png</text>
+      </g>
+      <text x="30" y="225" fill="#F9A8D4">├── baileys/</text>
+      <text x="30" y="260" fill="#F9A8D4">├── database/</text>
+      <g fill="#FEF08A">
+        <text x="65" y="285">├── .gitignore</text>
+        <text x="65" y="310">└── db.js</text>
+      </g>
+      <text x="30" y="350" fill="#F9A8D4">├── errors/</text>
+      <g fill="#FEF08A">
+        <text x="65" y="375">├── DangerError.js</text>
+        <text x="65" y="400">├── InvalidParameterError.js</text>
+        <text x="65" y="425">├── WarningError.js</text>
+        <text x="65" y="450">└── index.js</text>
+      </g>
+      <text x="30" y="490" fill="#F9A8D4">├── services/</text>
+      <g fill="#C4B5FD">
+        <text x="65" y="515">├── hercai.js</text>
+        <text x="65" y="540">└── poorplix-api.js</text>
+      </g>
+      <text x="30" y="580" fill="#F9A8D4">├── temp/</text>
+      <text x="30" y="615" fill="#F9A8D4">├── utils/</text>
+      <g fill="#FEF08A">
+        <text x="65" y="640">├── functions.js</text>
+        <text x="65" y="665">├── menu.js</text>
+        <text x="65" y="690">└── terminal.js</text>
+      </g>
+    </g>
+  </svg>
+</div>
+
+```text
+lite-bot/
+├── config.js
+├── connection.js
+├── index.js
+├── welcome.js
+├── test.js
+├── package.json
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 ## Linguagens e Tecnologias
 
