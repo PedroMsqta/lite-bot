@@ -41,18 +41,50 @@ Desenvolvido por **Dev Pedro ☕︎**, o Lite Bot foi pensado para funcionar em 
 
 ## Estrutura do Projeto
 
-<div align="center">
-  <img src="https://img.shields.io/badge/LITE%20BOT-PROJECT-A78BFA?style=for-the-badge" alt="Lite Bot Project" />
-  <img src="https://img.shields.io/badge/PROJECT%20STRUCTURE-OVERVIEW-F9A8D4?style=for-the-badge" alt="Project Structure Overview" />
-</div>
+A estrutura principal do projeto é organizada da seguinte forma:
 
-<br />
-
-<div align="center">
-  <img src="./assets/images/project-structure.svg" width="100%" alt="Árvore colorida da estrutura do projeto Lite Bot" />
-</div>
-
-> A pasta `node_modules/` não aparece no diagrama porque é gerada pelo gerenciador de pacotes e não deve ser versionada no Git.
+```text
+lite-bot/
+│
+├── assets/
+│   └── images/
+│       ├── default-user.png
+│       ├── erros-comuns-1.png
+│       └── menu.png
+│
+├── baileys/
+│
+├── database/
+│   ├── .gitignore
+│   └── db.js
+│
+├── errors/
+│   ├── DangerError.js
+│   ├── InvalidParameterError.js
+│   ├── WarningError.js
+│   └── index.js
+│
+├── services/
+│   ├── hercai.js
+│   └── spider-x-api.js
+│
+├── temp/
+│
+├── utils/
+│   ├── functions.js
+│   ├── menu.js
+│   └── terminal.js
+│
+├── config.js
+├── connection.js
+├── index.js
+├── welcome.js
+├── test.js
+├── package.json
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 ## Linguagens e Tecnologias
 
