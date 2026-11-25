@@ -1,1 +1,8 @@
 .vscode
+baileys/
+database/
+temp/
+errors/
+config.js
+node_modules/
+*.log
