@@ -22,13 +22,17 @@
 
 ## Tecnologias envolvidas
 
-- [Axios](https://axios-http.com/ptbr/docs/intro)
-- [Baileys](https://github.com/WhiskeySockets/Baileys)
-- [FFMPEG](https://ffmpeg.org/)
-- [Herc.ai](https://www.npmjs.com/package/hercai)
-- [Node.js 20.18.x](https://nodejs.org/en)
-- [Poorplix API](em breve)
-- [Yarn 1.22.22](https://yarnpkg.com)
+<div align="left">
+    <img src="https://img.shields.io/badge/Node.js-20.18.x-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Baileys-Latest-8e44ad?style=flat-square" alt="Baileys">
+    <img src="https://img.shields.io/badge/FFMPEG-Latest-E67E22?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFMPEG">
+    <img src="https://img.shields.io/badge/Yarn-1.22.22-2188B6?style=flat-square&logo=yarn&logoColor=white" alt="Yarn">
+    <img src="https://img.shields.io/badge/Axios-Latest-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios">
+    <img src="https://img.shields.io/badge/Herc.ai-API-blueviolet?style=flat-square" alt="Herc.ai">
+    <img src="https://img.shields.io/badge/Poorplix_API-Em_breve-lightgrey?style=flat-square" alt="Poorplix API">
+</div>
+
+<br />
 
 ## ⚠ Atenção
 
