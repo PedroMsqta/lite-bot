@@ -1,36 +1,49 @@
 <div align="center">
     <h1>Lite Bot ☕︎</h1>
     <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
-    <p>Desenvolvido por <strong>Dev Pedro ☕︎</strong></p>
 </div>
 
----
+<p align="center">
+    O <strong>Lite Bot</strong> foi construído por <strong>Dev Pedro ☕︎</strong> com o objetivo de ser uma base leve, rápida e multifunções para WhatsApp.<br/>
+    O foco do projeto é entregar simplicidade, automações práticas e código limpo, sendo ideal para rodar de forma acessível (como diretamente pelo celular via Termux) sem perder a performance.
+</p>
 
 <div align="center">
-    <img src="./assets/images/menu.png" width="500">
+  <a href="https://github.com/PedroMsqta">
+    <img src="https://img.shields.io/badge/GitHub-PEDROMSQTA-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.youtube.com/@DevPedro">
+    <img src="https://img.shields.io/badge/YouTube-DEV%20PEDRO-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+    <img src="./assets/images/menu.png" width="100%">
 </div>
 
 <br />
 
 <div align="center">
     <a href="https://github.com/PedroMsqta/lite-bot">
-        <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.2.1-blue">
+        <img alt="Version" src="https://img.shields.io/badge/Vers%C3%A3o-1.2.1-blue?style=for-the-badge">
     </a>
 </div>
 
 <br />
 
-## Tecnologias envolvidas
+## 🛠️ Tecnologias envolvidas
 
-<div align="left">
-    <img src="https://img.shields.io/badge/Node.js-20.18.x-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js">
-    <img src="https://img.shields.io/badge/Baileys-Latest-8e44ad?style=flat" alt="Baileys">
-    <img src="https://img.shields.io/badge/FFMPEG-Latest-E67E22?style=flat&logo=ffmpeg&logoColor=white" alt="FFMPEG">
-    <img src="https://img.shields.io/badge/Yarn-1.22.22-2188B6?style=flat&logo=yarn&logoColor=white" alt="Yarn">
-    <img src="https://img.shields.io/badge/Axios-Latest-5A29E4?style=flat&logo=axios&logoColor=white" alt="Axios">
-    <img src="https://img.shields.io/badge/Herc.ai-API-blueviolet?style=flat" alt="Herc.ai">
-    <img src="https://img.shields.io/badge/Poorplix_API-Em_breve-lightgrey?style=flat" alt="Poorplix API">
-</div>
+<p align="left">
+    <img src="https://img.shields.io/badge/Node.js-20.18.x-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Baileys-Latest-8e44ad?style=for-the-badge" alt="Baileys">
+    <img src="https://img.shields.io/badge/FFMPEG-Latest-E67E22?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFMPEG">
+    <img src="https://img.shields.io/badge/Yarn-1.22.22-2188B6?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn">
+    <img src="https://img.shields.io/badge/Axios-Latest-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios">
+    <img src="https://img.shields.io/badge/Herc.ai-API-blueviolet?style=for-the-badge" alt="Herc.ai">
+    <img src="https://img.shields.io/badge/Poorplix_API-Em_breve-lightgrey?style=for-the-badge" alt="Poorplix API">
+</p>
 
 <br />
 
