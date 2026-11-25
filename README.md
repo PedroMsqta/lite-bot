@@ -52,33 +52,64 @@
 Este projeto é **desenvolvido e mantido por Dev Pedro ☕︎**.
 Não há vínculo com terceiros. Para suporte, utilize o canal oficial do projeto.
 
-## Instalação no Termux <a id="termux-setup"></a>
+## 🚀 Instalação no Termux <a id="termux-setup"></a>
 
-1 - Abra o Termux e execute os comandos abaixo.<br/>
+Siga o guia abaixo na ordem correta. Clique nas setinhas (►) para expandir cada etapa e ver o que deve ser feito.
+
+<details>
+<summary><b>📱 Passo 1: Preparando o Termux e as Permissões</b> <i>(clique para abrir)</i></summary>
+<br>
+
+1 - Abra o **Termux** no seu celular. 
 _Não tem o Termux? [Clique aqui e baixe a última versão](https://www.mediafire.com/file/082otphidepx7aq/Termux_0.119.1_aldebaran_dev.apk)._
 
-2 - Digite:
+2 - Para que o bot consiga ler e salvar arquivos no seu celular, digite o comando abaixo e aperte Enter:
 
 ```sh
 termux-setup-storage
 ```
 
-E aceite as permissões que pedir.
+⚠️ Atenção: Assim que rodar o comando, o celular vai pedir permissão de acesso aos arquivos. Clique em "Permitir".
 
-3 - Cole o seguinte código:
+</details>
+
+<details>
+<summary><b>⚙️ Passo 2: Instalando as Ferramentas Necessárias</b> <i>(clique para abrir)</i></summary>
+<br>
+
+O bot precisa de algumas ferramentas para funcionar (como o Node.js e o FFMPEG). Para instalar tudo de uma vez, copie e cole o código abaixo no Termux e aperte Enter:
 
 ```sh
 pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && npm install -g yarn
 ```
 
-4 - Quando finalizar tudo, digite o código abaixo:
+💡 Dica: Esse processo pode demorar alguns minutos. Se o Termux fizer alguma pergunta durante a instalação (como [Y/n]), basta digitar y e apertar Enter.
+
+</details>
+
+<details>
+<summary><b>📥 Passo 3: Baixando o Bot</b> <i>(clique para abrir)</i></summary>
+<br>
+
+Agora vamos baixar os arquivos do bot direto do GitHub para a memória do seu celular. Quando o passo anterior terminar, cole o código abaixo:
 
 ```sh
 cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-bot
 ```
 
-5 - Configure o arquivo `config.js`. O bot fica dentro da pasta `/sdcard/lite-bot`.
-_Use o [MT Manager](https://mt.cc/download/) (v2.26.11) ou o [ZArchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver&hl=pt_BR) para fazer isso (localizar a pasta)._
+💡 O que isso faz? Ele entra na pasta do seu celular (/sdcard), baixa o projeto (git clone) e já entra na pasta do bot (/lite-bot). O bot ficará salvo em /sdcard/lite-bot.
+
+</details>
+
+<details>
+<summary><b>✏️ Passo 4: Configurando o Bot</b> <i>(clique para abrir)</i></summary>
+<br>
+
+1 - Use um gerenciador de arquivos no celular para encontrar a pasta /sdcard/lite-bot e abra o arquivo chamado config.js.
+
+Recomendamos o MT Manager (v2.26.11) ou o ZArchiver para fazer isso.
+
+2 - Altere as informações do arquivo com os seus dados:
 
 ```js
 // Prefixo dos comandos
@@ -88,7 +119,7 @@ exports.PREFIX = "/";
 exports.BOT_EMOJI = "🤖";
 
 // Nome do bot (mude se preferir).
-exports.BOT_NAME = "Poorplix Bot";
+exports.BOT_NAME = "Lite Bot";
 
 // Número do bot. Coloque o número do bot (apenas números).
 exports.BOT_NUMBER = "5511920202020";
@@ -96,17 +127,47 @@ exports.BOT_NUMBER = "5511920202020";
 // Número do dono do bot. Coloque o número do dono do bot (apenas números).
 exports.OWNER_NUMBER = "5511999999999";
 ```
-6 - Salve o que você acabou de configurar.
 
-7 - Vá no termux e digite `/sdcard/lite-bot`.
+3 - Não esqueça de salvar o arquivo depois de editar.
 
-8 - Rode o comando `yarn start` ou `npm start` e informe seu número de telefone.
+</details>
 
-9 - Coloque o código de pareamento em "dispositivos conectados" no WhatsApp, conforme explicado [nessa parte do vídeo](https://youtu.be/lBhpGuq5ETQ?t=76).
+<details>
+<summary><b>🔗 Passo 5: Conectando ao WhatsApp (Pareamento)</b> <i>(clique para abrir)</i></summary>
+<br>
 
-10 - Aguarde 10 segundos, depois digite `CTRL + C` 2x para parar o bot.
+1 - Volte para o Termux e digite o caminho da pasta do bot:
 
-11 - Inicie o bot novamente, dentro da pasta `lite-bot`:
+```sh
+/sdcard/lite-bot
+```
+
+2 - Inicie o bot rodando o comando:
+
+```sh
+yarn start
+```
+
+(ou npm start)
+
+3 - O Termux vai pedir o seu número de telefone. Digite o número com o DDD e aperte Enter.
+
+4 - Em seguida, ele vai gerar um código de 8 dígitos (Código de Pareamento).
+
+5 - Abra o WhatsApp no seu celular, vá em Dispositivos Conectados > Conectar um Dispositivo > Conectar com número de telefone.
+
+6 - Insira o código de 8 dígitos que apareceu no Termux.
+
+7 - Aguarde 10 segundos e, no Termux, aperte CTRL + C duas vezes para parar o bot.
+
+</details>
+
+<details>
+<summary><b>✅ Passo 6: Iniciando o Bot para uso</b> <i>(clique para abrir)</i></summary>
+<br>
+
+Agora que o WhatsApp já está conectado, o bot não vai mais pedir o número nem o código. Para ligar o bot no dia a dia, basta entrar na pasta e rodar:
+
 ```sh
 yarn start
 ```
@@ -115,6 +176,11 @@ ou
 
 ```sh
 npm start
+```
+
+🎉 Pronto! Seu bot está online e funcionando no WhatsApp.
+
+</details>
 ```
 
 ## Alguns comandos necessitam de API
