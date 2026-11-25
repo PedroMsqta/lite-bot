@@ -5,7 +5,7 @@
 
 <p align="center">
     O <strong>Lite Bot</strong> foi construído por <strong>Dev Pedro ☕︎</strong> com o objetivo de ser uma base leve, rápida e multifunções para WhatsApp.<br/>
-    O foco do projeto é entregar simplicidade, automações práticas e código limpo, sendo ideal para rodar de forma acessível (como diretamente pelo celular via Termux) sem perder a performance.
+    O foco do projeto é entregar simplicidade, automações práticas e código limpo, sendo ideal para rodar de forma acessível <strong>diretamente pelo celular via Termux</strong>, sem perder a performance.
 </p>
 
 <div align="center">
@@ -133,7 +133,7 @@ exports.OWNER_NUMBER = "5511999999999";
 </details>
 
 <details>
-<summary><b>Passo 5: Conectando ao WhatsApp (Pareamento)</b></summary>
+<summary><b>Passo 5: Conectando ao WhatsApp</b></summary>
 <br>
 
 1 - Volte para o Termux e digite o caminho da pasta do bot:
@@ -156,7 +156,7 @@ npm start
 
 3 - O Termux vai pedir o seu número de telefone. Digite o número com o DDD e aperte Enter.
 
-4 - Em seguida, ele vai gerar um código de 8 dígitos (Código de Pareamento).
+4 - Em seguida, ele vai gerar um Código de Pareamento de 8 dígitos.
 
 5 - Abra o WhatsApp no seu celular, vá em Dispositivos Conectados > Conectar um Dispositivo > Conectar com número de telefone.
 
@@ -219,7 +219,7 @@ Sticker ✅ Membro ❌
 
 Erros comuns
 
-Causa: Permission denied (permissão negada) ao acessar cd /sdcard
+Causa: Permission denied - permissão negada ao acessar cd /sdcard
 
 <br/>
 
@@ -244,14 +244,23 @@ Isso significa que:
 · Você pode usar este código como quiser, seja para projetos pessoais ou comerciais.
 · Você pode modificar o código para adaptá-lo às suas necessidades.
 · Você pode compartilhar ou vender o código, mesmo modificado, mas precisa:
-· Manter os créditos ao autor original (Pedro Lucas - Dev Pedro ☕︎).
+· Manter os créditos ao autor original: Pedro Lucas - Dev Pedro ☕︎.
 · Tornar o código modificado disponível sob a mesma licença GPL-3.0.
 
 O que você não pode fazer:
 
-· Não pode transformar este código em algo proprietário (fechado) e impedir outras pessoas de acessá-lo ou usá-lo.
+· Não pode transformar este código em algo proprietário ou fechado e impedir outras pessoas de acessá-lo ou usá-lo.
   Esta licença garante que todos tenham acesso ao código-fonte e podem colaborar livremente, promovendo o compartilhamento e o aprimoramento do projeto.
 
 ⚠ Disclaimer
 
 Neste projeto, precisei hospedar a node_modules, para auxiliar quem está rodando o bot pelo celular, pois muitos deles podem não rodar o npm install ou yarn pelo termux corretamente.
+
+```
+
+### O que foi alterado nos textos:
+1. No início: `(como diretamente pelo celular via Termux)` virou **diretamente pelo celular via Termux** (em negrito).
+2. No Passo 5: `(Código de Pareamento)` virou **Código de Pareamento** (em negrito).
+3. Nos Erros Comuns: `(permissão negada)` virou `- permissão negada` (com um traço).
+4. Na Licença: `(Pedro Lucas - Dev Pedro ☕︎)` virou `: **Pedro Lucas - Dev Pedro ☕︎**` (com dois pontos e em negrito).
+5. Onde tinha `(fechado)`, tirei os parênteses e deixei apenas a palavra.
