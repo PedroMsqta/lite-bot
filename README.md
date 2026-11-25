@@ -54,10 +54,10 @@ Não há vínculo com terceiros. Para suporte, utilize o canal oficial do projet
 
 ## 🚀 Instalação no Termux <a id="termux-setup"></a>
 
-Siga o guia abaixo na ordem correta. Clique nas setinhas (►) para expandir cada etapa e ver o que deve ser feito.
+Organizamos a instalação em etapas simples para facilitar o seu aprendizado. Siga o Guia abaixo na ordem correta.
 
 <details>
-<summary><b>Passo 1: Preparando o Termux e as Permissões</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 1: Preparando o Termux e as Permissões</b> <i></i></summary>
 <br>
 
 1 - Abra o **Termux** no seu celular. 
@@ -74,21 +74,21 @@ termux-setup-storage
 </details>
 
 <details>
-<summary><b>Passo 2: Instalando as Ferramentas Necessárias</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 2: Instalando as Ferramentas Necessárias</b> <i></i></summary>
 <br>
 
-O bot precisa de algumas ferramentas para funcionar (como o Node.js e o FFMPEG). Para instalar tudo de uma vez, copie e cole o código abaixo no Termux e aperte Enter:
+O bot precisa de algumas ferramentas para funcionar como o Node.js e o FFMPEG. Para instalar tudo de uma vez, copie e cole o código abaixo no Termux e aperte Enter:
 
 ```sh
 pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs-lts -y && pkg install ffmpeg -y && npm install -g yarn
 ```
 
-💡 Dica: Esse processo pode demorar alguns minutos. Se o Termux fizer alguma pergunta durante a instalação (como [Y/n]), basta digitar y e apertar Enter.
+💡 Dica: Esse processo pode demorar alguns minutos. Se o Termux fizer alguma pergunta durante a instalação como [Y/n], basta digitar y e apertar Enter.
 
 </details>
 
 <details>
-<summary><b>Passo 3: Baixando o Bot</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 3: Baixando o Bot</b> <i></i></summary>
 <br>
 
 Agora vamos baixar os arquivos do bot direto do GitHub para a memória do seu celular. Quando o passo anterior terminar, cole o código abaixo:
@@ -97,17 +97,17 @@ Agora vamos baixar os arquivos do bot direto do GitHub para a memória do seu ce
 cd /sdcard && git clone https://github.com/PedroMsqta/lite-bot.git && cd ./lite-bot
 ```
 
-💡 O que isso faz? Ele entra na pasta do seu celular (/sdcard), baixa o projeto (git clone) e já entra na pasta do bot (/lite-bot). O bot ficará salvo em /sdcard/lite-bot.
+💡 O que isso faz? Ele entra na pasta do seu celular /sdcard, baixa o projeto git clone e já entra na pasta do bot /lite-bot. O bot ficará salvo em /sdcard/lite-bot.
 
 </details>
 
 <details>
-<summary><b>Passo 4: Configurando o Bot</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 4: Configurando o Bot</b> <i></i></summary>
 <br>
 
 1 - Use um gerenciador de arquivos no celular para encontrar a pasta /sdcard/lite-bot e abra o arquivo chamado config.js.
 
-Recomendamos o MT Manager (v2.26.11) ou o ZArchiver para fazer isso.
+Recomendamos o MT Manager v2.26.11 ou o ZArchiver para fazer isso.
 
 2 - Altere as informações do arquivo com os seus dados:
 
@@ -133,7 +133,7 @@ exports.OWNER_NUMBER = "5511999999999";
 </details>
 
 <details>
-<summary><b>Passo 5: Conectando ao WhatsApp (Pareamento)</b> <i>(clique para abrir)</i></summary>
+<summary><b>Passo 5: Conectando ao WhatsApp Pareamento</b> <i></i></summary>
 <br>
 
 1 - Volte para o Termux e digite o caminho da pasta do bot:
@@ -148,11 +148,11 @@ exports.OWNER_NUMBER = "5511999999999";
 yarn start
 ```
 
-(ou npm start)
+ou npm start
 
 3 - O Termux vai pedir o seu número de telefone. Digite o número com o DDD e aperte Enter.
 
-4 - Em seguida, ele vai gerar um código de 8 dígitos (Código de Pareamento).
+4 - Em seguida, ele vai gerar um código de 8 dígitos Código de Pareamento.
 
 5 - Abra o WhatsApp no seu celular, vá em Dispositivos Conectados > Conectar um Dispositivo > Conectar com número de telefone.
 
@@ -163,7 +163,7 @@ yarn start
 </details>
 
 <details>
-<summary><b>✅ Passo 6: Iniciando o Bot para uso</b> <i>(clique para abrir)</i></summary>
+<summary><b>✅ Passo 6: Iniciando o Bot para uso</b> <i></i></summary>
 <br>
 
 Agora que o WhatsApp já está conectado, o bot não vai mais pedir o número nem o código. Para ligar o bot no dia a dia, basta entrar na pasta e rodar:
@@ -186,7 +186,7 @@ npm start
 ## Alguns comandos necessitam de API
 
 Edite a linha `34` do arquivo `config.js` e cole sua api key da plataforma Poorplix API.<br/>
-Para obter seu token, acesse: [em breve](em breve) e crie sua conta gratuitamente!
+Para obter seu token, acesse: [em breve] e crie sua conta gratuitamente!
 
 ```js
 exports.POORPLIX_API_TOKEN = "seu_token_aqui";
@@ -213,7 +213,7 @@ exports.POORPLIX_API_TOKEN = "seu_token_aqui";
 
 ## Erros comuns
 
-### Causa: Permission denied (permissão negada) ao acessar `cd /sdcard`
+### Causa: Permission denied [permissão negada] ao acessar `cd /sdcard`
 
 <br/>
 
