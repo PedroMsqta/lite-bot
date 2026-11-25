@@ -1,10 +1,4 @@
 <div align="center">
-    <img src="./assets/images/banner.png" alt="Lite Bot" width="100%">
-</div>
-
-<br />
-
-<div align="center">
     <h1>Lite Bot ☕︎</h1>
     <p><strong>Bot de WhatsApp minimalista multifunções</strong></p>
     <p>Desenvolvido por <strong>Dev Pedro ☕︎</strong></p>
@@ -26,8 +20,6 @@
 
 <br />
 
-# Bot de WhatsApp minimalista multifunções
-
 ## Tecnologias envolvidas
 
 - [Axios](https://axios-http.com/ptbr/docs/intro)
@@ -40,9 +32,8 @@
 
 ## ⚠ Atenção
 
-Nós não prestamos suporte gratuíto caso você tenha adquirido esta base com terceiros e tenha pago por isso. 
-Solicite que **a pessoa que te vendeu, forneça suporte**.
-Nós não temos vínculo nenhum com terceiros e não nos responsabilizamos por isso, nem prestamos suporte nessas condições.
+Este projeto é **desenvolvido e mantido por Dev Pedro ☕︎**.
+Não há vínculo com terceiros. Para suporte, utilize o canal oficial do projeto.
 
 ## Instalação no Termux <a id="termux-setup"></a>
 
